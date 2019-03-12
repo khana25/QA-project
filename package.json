@@ -1,0 +1,23 @@
+{
+  "name": "Nature-Project",
+  "version": "1.0.0",
+  "description": "End-to-End Testing with Protactor",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/protractor config.js",
+    "start": "./node_modules/protractor/bin/protractor config.js"
+  },
+  "author": "Ayub Khan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/centner/udemy-protractor/issues"
+  },
+  "dependencies": {
+    "protractor": "^5.4.2"
+  },
+  "devDependencies": {
+    "grunt-concurrent": "^2.3.1",
+    "load-grunt-tasks": "^4.0.0"
+  }
+
+}
