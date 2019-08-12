@@ -5,7 +5,8 @@ exports.config = {
     specs: ['./pages/*/*.spec.js'],
 
     params: {
-        url: 'https://www.nature.com/'
+        url: 'http://automationpractice.com/'
+        
     },
 
     onPrepare: function () {
@@ -20,7 +21,9 @@ exports.config = {
     },
     suites: {
         home: 'pages/home/**/*.spec.js',
-        search: 'pages/search/**/*.spec.js'
+        createAccount: 'pages/createAccount/**/*.spec.js',
+        changeColour: 'pages/changeColour/**/*.spec.js',
+        changeSize: 'pages/changeSize/**/*.spec.js'
     },
 
         browserName: 'chrome',

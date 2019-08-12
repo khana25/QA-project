@@ -13,11 +13,12 @@
     "url": "https://gitlab.com/centner/udemy-protractor/issues"
   },
   "dependencies": {
-    "protractor": "^5.4.2"
+    "faker": "^4.1.0",
+    "jasmine-reporters": "^2.3.2"
   },
   "devDependencies": {
     "grunt-concurrent": "^2.3.1",
-    "load-grunt-tasks": "^4.0.0"
+    "load-grunt-tasks": "^4.0.0",
+    "protractor": "^5.4.2"
   }
-
 }

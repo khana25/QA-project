@@ -1,10 +1,59 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuites disabled="0" errors="0" failures="0" tests="3" time="29.882">
- <testsuite name="Nature homepage" timestamp="2019-03-12T13:27:33" hostname="localhost" time="18.497" errors="0" tests="2" skipped="0" disabled="0" failures="0">
-  <testcase classname="Nature homepage" name="should visit the Nature homepage and verify the title of the page" time="9.375" />
-  <testcase classname="Nature homepage" name="should have a search Icon, e-alert icon, submit icon and a login button present on the homepage" time="9.122" />
- </testsuite>
- <testsuite name="Nature homepage" timestamp="2019-03-12T13:27:51" hostname="localhost" time="11.385" errors="0" tests="1" skipped="0" disabled="0" failures="0">
-  <testcase classname="Nature homepage" name="should search for a keyword and verify the results against that keyword search" time="11.385" />
+<testsuites disabled="0" errors="0" failures="2" tests="1" time="31.776">
+ <testsuite name="Test to change the colour of the item before add to the cart" timestamp="2019-08-12T12:10:58" hostname="localhost" time="31.776" errors="0" tests="1" skipped="0" disabled="0" failures="2">
+  <testcase classname="Test to change the colour of the item before add to the cart" name="change the colour of the item and add to cart" time="31.776">
+   <failure type="toBe" message="Expected false to be true."><![CDATA[Error: Failed expectation
+    at UserContext.<anonymous> (/Users/ayubkhan/Desktop/QA-project/pages/changeColour/changeColour.spec.js:46:56)
+    at /Users/ayubkhan/Desktop/QA-project/node_modules/jasminewd2/index.js:112:25
+    at new ManagedPromise (/Users/ayubkhan/Desktop/QA-project/node_modules/selenium-webdriver/lib/promise.js:1077:7)
+    at ControlFlow.promise (/Users/ayubkhan/Desktop/QA-project/node_modules/selenium-webdriver/lib/promise.js:2505:12)
+    at schedulerExecute (/Users/ayubkhan/Desktop/QA-project/node_modules/jasminewd2/index.js:95:18)
+    at TaskQueue.execute_ (/Users/ayubkhan/Desktop/QA-project/node_modules/selenium-webdriver/lib/promise.js:3084:14)
+    at TaskQueue.executeNext_ (/Users/ayubkhan/Desktop/QA-project/node_modules/selenium-webdriver/lib/promise.js:3067:27)
+    at asyncRun (/Users/ayubkhan/Desktop/QA-project/node_modules/selenium-webdriver/lib/promise.js:2974:25)
+    at /Users/ayubkhan/Desktop/QA-project/node_modules/selenium-webdriver/lib/promise.js:668:7]]>
+   </failure>
+   <failure type="exception" message="Failed: No element found using locator: By(css selector, *[id=&quot;customer_firstname&quot;])"><![CDATA[NoSuchElementError: No element found using locator: By(css selector, *[id="customer_firstname"])
+    at elementArrayFinder.getWebElements.then (/Users/ayubkhan/Desktop/QA-project/node_modules/protractor/built/element.js:814:27)
+    at ManagedPromise.invokeCallback_ (/Users/ayubkhan/Desktop/QA-project/node_modules/selenium-webdriver/lib/promise.js:1376:14)
+    at TaskQueue.execute_ (/Users/ayubkhan/Desktop/QA-project/node_modules/selenium-webdriver/lib/promise.js:3084:14)
+    at TaskQueue.executeNext_ (/Users/ayubkhan/Desktop/QA-project/node_modules/selenium-webdriver/lib/promise.js:3067:27)
+    at asyncRun (/Users/ayubkhan/Desktop/QA-project/node_modules/selenium-webdriver/lib/promise.js:2927:27)
+    at /Users/ayubkhan/Desktop/QA-project/node_modules/selenium-webdriver/lib/promise.js:668:7
+    at process._tickCallback (internal/process/next_tick.js:68:7)Error
+    at ElementArrayFinder.applyAction_ (/Users/ayubkhan/Desktop/QA-project/node_modules/protractor/built/element.js:459:27)
+    at ElementArrayFinder.(anonymous function).args [as sendKeys] (/Users/ayubkhan/Desktop/QA-project/node_modules/protractor/built/element.js:91:29)
+    at ElementFinder.(anonymous function).args [as sendKeys] (/Users/ayubkhan/Desktop/QA-project/node_modules/protractor/built/element.js:831:22)
+    at createAccountPage.createAccount (/Users/ayubkhan/Desktop/QA-project/pages/createAccount/createAccount.po.js:50:25)
+    at UserContext.<anonymous> (/Users/ayubkhan/Desktop/QA-project/pages/changeColour/changeColour.spec.js:49:27)
+    at /Users/ayubkhan/Desktop/QA-project/node_modules/jasminewd2/index.js:112:25
+    at new ManagedPromise (/Users/ayubkhan/Desktop/QA-project/node_modules/selenium-webdriver/lib/promise.js:1077:7)
+    at ControlFlow.promise (/Users/ayubkhan/Desktop/QA-project/node_modules/selenium-webdriver/lib/promise.js:2505:12)
+    at schedulerExecute (/Users/ayubkhan/Desktop/QA-project/node_modules/jasminewd2/index.js:95:18)
+    at TaskQueue.execute_ (/Users/ayubkhan/Desktop/QA-project/node_modules/selenium-webdriver/lib/promise.js:3084:14)
+From: Task: Run it("change the colour of the item and add to cart") in control flow
+    at UserContext.<anonymous> (/Users/ayubkhan/Desktop/QA-project/node_modules/jasminewd2/index.js:94:19)
+    at attempt (/Users/ayubkhan/Desktop/QA-project/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:4297:26)
+    at QueueRunner.run (/Users/ayubkhan/Desktop/QA-project/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:4217:20)
+    at runNext (/Users/ayubkhan/Desktop/QA-project/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:4257:20)
+    at /Users/ayubkhan/Desktop/QA-project/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:4264:13
+    at /Users/ayubkhan/Desktop/QA-project/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:4172:9
+    at /Users/ayubkhan/Desktop/QA-project/node_modules/jasminewd2/index.js:64:48
+    at ControlFlow.emit (/Users/ayubkhan/Desktop/QA-project/node_modules/selenium-webdriver/lib/events.js:62:21)
+    at ControlFlow.shutdown_ (/Users/ayubkhan/Desktop/QA-project/node_modules/selenium-webdriver/lib/promise.js:2674:10)
+    at shutdownTask_.MicroTask (/Users/ayubkhan/Desktop/QA-project/node_modules/selenium-webdriver/lib/promise.js:2599:53)
+From asynchronous test: 
+Error
+    at Suite.<anonymous> (/Users/ayubkhan/Desktop/QA-project/pages/changeColour/changeColour.spec.js:24:5)
+    at addSpecsToSuite (/Users/ayubkhan/Desktop/QA-project/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:1107:25)
+    at Env.describe (/Users/ayubkhan/Desktop/QA-project/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:1074:7)
+    at describe (/Users/ayubkhan/Desktop/QA-project/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:4399:18)
+    at Object.<anonymous> (/Users/ayubkhan/Desktop/QA-project/pages/changeColour/changeColour.spec.js:6:1)
+    at Module._compile (internal/modules/cjs/loader.js:689:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:700:10)
+    at Module.load (internal/modules/cjs/loader.js:599:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:538:12)]]>
+   </failure>
+  </testcase>
  </testsuite>
 </testsuites>
