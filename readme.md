@@ -1,6 +1,5 @@
 Setup
 -----
-Install [Java from here](http://www.oracle.com/technetwork/java/javase/downloads/index.html)
 Install [Node.js](http://nodejs.org/)
 
 You can use npm to install Protractor globally with:
