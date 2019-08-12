@@ -43,5 +43,6 @@ It is possible to run tests by test suites/groups separately:
 
 ```
 protractor config.js --suite home
-protractor config.js --suite search
+protractor config.js --suite changeSize
+protractor config.js --suite changeColour
 ```
